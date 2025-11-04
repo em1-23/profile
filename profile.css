@@ -7,7 +7,7 @@
 
 html{
     background-color:var(--background-color);
-    font-family: Lalezar;
+    font-family: Lalezar , fantasy ,sans-serif;
     font-size: large;
     color: var(--background-color);
 }
@@ -58,7 +58,7 @@ html{
 }
 
 h2{
-    font-family: 'Aref Ruqaa Ink' ,Rakkas ,'Cairo Play';
+    font-family: 'Aref Ruqaa Ink' ,Rakkas ,'Cairo Play' , sans-serif;
     background-color: var(--background-color);
     border-radius: 1rem;
     border-bottom-left-radius: 3rem;
@@ -168,4 +168,35 @@ h2:active{
 
 .fa-facebook:hover,.fa-telegram:hover,.fa-youtube:hover,.fa-whatsapp:hover,.fa-github:hover ,.fa-linkedin:hover{
     color: var(--background-color);
+}
+
+@media (max-width: 400px){
+    html{
+        font-size: 11px;
+    }
+    .photo-1{
+        left: 4%;
+        height: 100px;
+        width: 100px;
+    }
+    .photo{
+        position: absolute;
+        left: -0.7%;
+        height: 100px;
+        width: 100px;
+    }
+    h2{
+        width: 35%;
+    }
+    .bottom{
+        top: 25%;
+        left: 1%;
+        width: 150px;
+    }
+    .Icons-Out-Off-The_programming{
+        right: 45%;
+    }
+    .Icons-Out-Off-The_programming> .icons{
+        font-size: large;
+    }
 }
