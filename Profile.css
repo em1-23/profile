@@ -94,7 +94,6 @@ h1{
 }
 h2{
 	font-family: Lemonada;
-
 	background-color: burlywood;
 	width: 15%;
 	border-radius: 3rem;
@@ -131,4 +130,22 @@ h3{
 	border-top-right-radius: 3rem;
 	text-align: center;
 	font-size: large;
+}
+.div{
+	display: none;
+}
+@media (max-width:700px){
+	.photo{
+		position: absolute;
+		top: 17.5%;
+		right: 25%;
+		width: 200px;
+		height: 200px;
+	}
+	h1,h2{width: 50%;}
+	h2{height: 20px;font-size: x-small;}
+	.top>h3{font-size: medium;}
+	.top>hr{margin-right: 90px;}
+	.div{display: block;}
+	.MoreDetailes,.bottom{font-size: x-small;}
 }
